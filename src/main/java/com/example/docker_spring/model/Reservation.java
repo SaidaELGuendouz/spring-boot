@@ -16,6 +16,7 @@ public class Reservation {
      private long id;
      private String titre;
      private Double prix;
+    private String status;
      @Enumerated(value = EnumType.STRING)
      private StatutReservation statut;
 }
